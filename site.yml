@@ -1,0 +1,10 @@
+---
+- name: Setup application tier
+  include_playbook: front-end.yml
+
+- name: Setup application tier
+  include_playbook: app-tier.yml
+
+- name: Setup database tier
+  include_playbook: database-tier.yml
+...

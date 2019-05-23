@@ -1,0 +1,10 @@
+---
+- name: Setup app tier
+  hosts: apps
+  tags:
+    - apps
+
+  roles:
+    - common
+    - app-tier
+...

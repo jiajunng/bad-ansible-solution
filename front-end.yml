@@ -1,0 +1,9 @@
+---
+- name: Setup frontend load-balancer tier
+  hosts: frontends
+  tags:
+    - frontends
+
+  roles:
+    - common
+    - frontend-tier

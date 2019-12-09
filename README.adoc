@@ -1,0 +1,6 @@
+== Overview
+
+A edited cleaner solution to bad-ansible [1]
+
+== References
+[1]: https://github.com/jiajunng/bad-ansible

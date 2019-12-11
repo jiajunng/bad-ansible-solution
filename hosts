@@ -1,9 +1,9 @@
 [frontends]
-frontend1.b395.internal.example.opentlc.com ansible_ssh_host=frontend1.b395.example.opentlc.com
+frontend1.b395.internal ansible_ssh_host=frontend1.b395.example.opentlc.com
 
 [apps]
-app1.b395.internal.example.opentlc.com ansible_ssh_host=app1.b395.example.opentlc.com
-app2.b395.internal.example.opentlc.com ansible_ssh_host=app2.b395.example.opentlc.com
+app1.b395.internal ansible_ssh_host=app1.b395.example.opentlc.com
+app2.b395.internal ansible_ssh_host=app2.b395.example.opentlc.com
 
 [appdbs]
-appdb1.b395.internal.example.opentlc.com ansible_ssh_host=appdb1.b395.example.opentlc.com
+appdb1.b395.internal ansible_ssh_host=appdb1.b395.example.opentlc.com
